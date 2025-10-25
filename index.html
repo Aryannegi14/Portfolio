@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aryan Negi | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style> body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; } </style>
+</head>
+<body class="bg-gray-900 text-gray-100 antialiased">
+  <header class="sticky top-0 z-50 bg-gray-900/95 backdrop-blur-sm shadow-lg">
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#home" class="text-2xl font-bold text-indigo-400 hover:text-indigo-300 transition">Aryan Negi</a>
+      <div class="flex space-x-6">
+        <a href="#about" class="text-gray-300 hover:text-indigo-400">About</a>
+        <a href="#skills" class="text-gray-300 hover:text-indigo-400">Skills</a>
+        <a href="#projects" class="text-gray-300 hover:text-indigo-400">Projects</a>
+        <a href="#contact" class="text-gray-300 hover:text-indigo-400">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="min-h-screen flex items-center justify-center text-center px-4 pb-32">
+      <div class="max-w-4xl space-y-6">
+        <div class="w-36 h-36 sm:w-48 sm:h-48 md:w-64 md:h-64 mx-auto rounded-full bg-gray-700 overflow-hidden border-4 border-indigo-400">
+          <img src="src/pfp.jpg" alt="Aryan Negi Profile" class="w-full h-full object-cover">
+        </div>
+        <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight">
+          Hi, I’m <span class="text-indigo-400">Aryan Negi</span> <br> A Passionate Web Developer
+        </h1>
+        <p class="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto">
+          I build modern, efficient, and beautiful web applications<br>
+          Want your own web application? — Better Call Aryan.
+        </p>
+        <div>
+          <a href="#projects" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-xl shadow-lg transition transform hover:scale-[1.02]">
+            View My Work &rarr;
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-20 md:py-28 bg-gray-800/50">
+      <div class="container mx-auto px-6 max-w-4xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-indigo-400">About Me</h2>
+        <div class="bg-gray-800 p-8 rounded-2xl shadow-xl space-y-6">
+          <p class="text-gray-300 leading-relaxed text-lg">
+            I’m Aryan Negi, a Computer Science student and web developer who loves bringing ideas to life through clean and functional code. Whether it’s crafting stunning UIs or building full-stack web apps, I’m all in.
+          </p>
+          <p class="text-gray-300 leading-relaxed text-lg">
+            I’ve worked on everything from AI-powered tools to interactive web experiences. I love challenges, debugging (sometimes), and experimenting with new technologies.
+          </p>
+          <p class="text-gray-300 leading-relaxed text-lg">
+            My goal? To keep learning, keep building, and create software that people actually enjoy using.
+          </p>
+          <div class="pt-6 text-center">
+            <a href="src/Aryan negi (3).pdf" download="Aryan_Negi_Resume" class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-xl shadow-lg transition transform hover:scale-[1.03]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 16V4m0 12l4-4m-4 4l-4-4m8 8H8" />
+              </svg>
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="py-20 md:py-28">
+      <div class="container mx-auto px-6 max-w-4xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-indigo-400">Technical Skills</h2>
+        <div class="flex flex-wrap justify-center gap-4 p-6 bg-gray-800 rounded-2xl shadow-xl">
+          <span class="flex items-center gap-2 bg-indigo-500/20 text-indigo-300 font-medium px-4 py-2 rounded-full border border-indigo-500">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="w-5 h-5" alt="HTML5 Logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="w-5 h-5" alt="CSS3 Logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-5 h-5" alt="JS Logo">
+            HTML / CSS / JavaScript
+          </span>
+          <span class="flex items-center gap-2 bg-indigo-500/20 text-indigo-300 font-medium px-4 py-2 rounded-full border border-indigo-500">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="w-5 h-5" alt="React Logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" class="w-5 h-5" alt="Next.js Logo">
+            React / Next.js
+          </span>
+          <span class="flex items-center gap-2 bg-green-500/20 text-green-300 font-medium px-4 py-2 rounded-full border border-green-500">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="w-5 h-5" alt="Node.js Logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" class="w-5 h-5" alt="Express Logo">
+            Node.js / Express
+          </span>
+          <span class="flex items-center gap-2 bg-yellow-500/20 text-yellow-300 font-medium px-4 py-2 rounded-full border border-yellow-500">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" class="w-5 h-5" alt="MongoDB Logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" class="w-5 h-5" alt="PostgreSQL Logo">
+            MongoDB / PostgreSQL
+          </span>
+          <span class="flex items-center gap-2 bg-red-500/20 text-red-300 font-medium px-4 py-2 rounded-full border border-red-500">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="w-5 h-5" alt="Git Logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="w-5 h-5" alt="GitHub Logo">
+            Git / GitHub
+          </span>
+          <span class="flex items-center gap-2 bg-indigo-500/20 text-indigo-300 font-medium px-4 py-2 rounded-full border border-indigo-500">
+            <img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjM0ZCM0ZGIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJjLTMuMzEgMC01Ljg5IDEuNzEtNy4yNSAzLjQ1QzEuMzYgNy4yNyAwIDEwLjI0IDAgMTMuMTZjMCAyLjY4IDEuNjggNS4wMSA0LjUgNS4wMSAyLjE2IDAgMy43Ny0xLjI1IDQuMzYtMi45MyAxLjAzLTIuODMgMi45OC00LjI0IDUuMTQtNC4yNCAyLjcyIDAgNC4yNCAxLjgxIDQuMjQgNC4xNyAwIDIuMjktMS4xNyA1LjgzLTUuNCA1LjgzLTIuNjYgMC01LjA3LTEuNDQtNS45Mi0zLjI0bC0uMDgtLjE1Yy0uMDYtLjEzLS4xMi0uMjYtLjE4LS4zOUw0LjUyIDE2YzEuMTMgMi4xMyAzLjQ4IDQuMDEgNy40OCA0LjAxIDQuNTEgMCA3LjA3LTIuNjggNy4wNy02LjEyIDAtMy4wMi0xLjcxLTUuODYtNC43My01Ljg2LTIuMjUgMC0zLjg3IDEuMjUtNC40NSAzLjA2LS44OSAyLjY5LTIuNjcgNC4wOS01LjEyIDQuMDktMi42OSAwLTQuNDMtMS43Ni00LjQzLTQuMTMgMC0zLjYzIDIuNzMtNi41IDguMTItNi41IDMuMDkgMCA1LjUyIDEuMzEgNi4xNiAyLjA0bC4yNS4zMS42OC44My4wMy0uMDFhLjc4Ljc4IDAgMCAxIC4xLjEgTDE4LjQ1IDZIMjJjLTEuMDEtMi4xNS0zLjI1LTQtNi05eiIvPgo8L3N2Zz4=" class="w-5 h-5" alt="Tailwind CSS Logo">
+            Tailwind CSS
+          </span>
+          <span class="flex items-center gap-2 bg-green-500/20 text-green-300 font-medium px-4 py-2 rounded-full border border-green-500">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="w-5 h-5" alt="Python Logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" class="w-5 h-5" alt="Flask Logo">
+            Python / Flask
+          </span>
+          <span class="flex items-center gap-2 bg-yellow-500/20 text-yellow-300 font-medium px-4 py-2 rounded-full border border-yellow-500">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" class="w-5 h-5" alt="ChatGPT Logo">
+            AI Integration (Groq / OpenAI APIs)
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="py-20 md:py-28 bg-gray-800/50">
+      <div class="container mx-auto px-6 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-indigo-400">My Projects</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-indigo-500/30 transition">
+            <img src="src/1.png" class="w-full h-48 object-cover">
+            <div class="p-6 space-y-3">
+              <h3 class="text-xl font-semibold text-white">Gym Genie 💪</h3>
+              <p class="text-gray-400 text-sm">
+                A fitness web app that generates personalized workout routines and tracks your progress to help you achieve your fitness goals efficiently.
+              </p>
+              <div class="flex flex-wrap gap-2 pt-2">
+                <span class="text-xs font-medium bg-gray-700 text-gray-300 px-2 py-0.5 rounded-lg">React</span>
+                <span class="text-xs font-medium bg-gray-700 text-gray-300 px-2 py-0.5 rounded-lg">Node.js</span>
+                <span class="text-xs font-medium bg-gray-700 text-gray-300 px-2 py-0.5 rounded-lg">MongoDB</span>
+              </div>
+              <div class="flex gap-4 pt-3">
+                <a href="https://geniedegym.netlify.app/" class="text-sm font-medium text-indigo-400 hover:text-indigo-300">Live Demo →</a>
+                <a href="https://github.com/Aryannegi14/GymGenie" class="text-sm font-medium text-gray-400 hover:text-white">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-indigo-500/30 transition">
+            <img src="src/2.png" class="w-full h-48 object-cover">
+            <div class="p-6 space-y-3">
+              <h3 class="text-xl font-semibold text-white">Food Suggester 🍔</h3>
+              <p class="text-gray-400 text-sm">
+                An AI-powered app that recommends meals based on your dietary preferences, nutrition goals, and available ingredients at home.
+              </p>
+              <div class="flex flex-wrap gap-2 pt-2">
+                <span class="text-xs font-medium bg-gray-700 text-gray-300 px-2 py-0.5 rounded-lg">React</span>
+                <span class="text-xs font-medium bg-gray-700 text-gray-300 px-2 py-0.5 rounded-lg">Python</span>
+                <span class="text-xs font-medium bg-gray-700 text-gray-300 px-2 py-0.5 rounded-lg">Flask</span>
+              </div>
+              <div class="flex gap-4 pt-3">
+                <a href="https://food-suggester.onrender.com/" class="text-sm font-medium text-indigo-400 hover:text-indigo-300">Live Demo →</a>
+                <a href="https://github.com/Aryannegi14/Food-Suggester" class="text-sm font-medium text-gray-400 hover:text-white">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-indigo-500/30 transition">
+            <img src="src/3.png" class="w-full h-48 object-cover">
+            <div class="p-6 space-y-3">
+              <h3 class="text-xl font-semibold text-white">AI Financial Supporter 💰</h3>
+              <p class="text-gray-400 text-sm">
+                An AI-driven financial assistant that helps users manage expenses, create budgets, and get personalized investment suggestions based on their goals.
+              </p>
+              <div class="flex flex-wrap gap-2 pt-2">
+                <span class="text-xs font-medium bg-gray-700 text-gray-300 px-2 py-0.5 rounded-lg">Python</span>
+                <span class="text-xs font-medium bg-gray-700 text-gray-300 px-2 py-0.5 rounded-lg">AI Integration</span>
+                <span class="text-xs font-medium bg-gray-700 text-gray-300 px-2 py-0.5 rounded-lg">Flask</span>
+              </div>
+              <div class="flex gap-4 pt-3">
+                <a href="https://ai-financial-supporter.streamlit.app/" class="text-sm font-medium text-indigo-400 hover:text-indigo-300">Live Demo →</a>
+                <a href="https://github.com/Aryannegi14/AI-Financial-Supporter" class="text-sm font-medium text-gray-400 hover:text-white">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-20 md:py-28">
+      <div class="container mx-auto px-6 max-w-2xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-indigo-400">Get In Touch</h2>
+        <div class="bg-gray-800 p-8 rounded-2xl shadow-xl space-y-6">
+          <a href="https://github.com/Aryannegi14" target="_blank" class="flex items-center gap-3 text-gray-300 hover:text-indigo-400 text-lg font-medium">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="w-6 h-6" alt="GitHub Logo">
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/aryannegi29/" target="_blank" class="flex items-center gap-3 text-gray-300 hover:text-indigo-400 text-lg font-medium">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" class="w-6 h-6" alt="LinkedIn Logo">
+            LinkedIn
+          </a>
+          <a href="tel:+917011110627" class="flex items-center gap-3 text-gray-300 hover:text-indigo-400 text-lg font-medium">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h2l3.6 7.59-1.35 2.44a11.042 11.042 0 005.02 5.02l2.44-1.35L19 19v2a1 1 0 01-1 1h-2C7.82 22 2 16.18 2 9V7a1 1 0 011-1z" />
+            </svg>
+            +91 - 7011110627
+          </a>
+          <a href="mailto:aryannegiofficial@gmail.com" class="flex items-center gap-3 text-gray-300 hover:text-indigo-400 text-lg font-medium">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" class="w-6 h-6" alt="Gmail Logo">
+            aryannegiofficial@gmail.com
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
